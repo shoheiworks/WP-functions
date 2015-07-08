@@ -87,3 +87,10 @@ css
 	}
 	add_filter( 'the_title', 'titlelength' );
 */
+
+/* include */
+locate_template('functionsFiles/custompost.php', true);
+locate_template('functionsFiles/widget.php', true);
+locale_template('functionsFiles/shortcode.php', true);
+locale_template('functionsFiles/show-article-in-archive.php', true);
+locate_template('functionsFiles/comment.php', true);
