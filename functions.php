@@ -1,10 +1,9 @@
 <? php 
 ##width of contents
-functions.php
 
     if ( ! isset( $content_width ) )
     $content_width = 640;
-    
+/*    
 css
 
     .size-auto, 
@@ -15,7 +14,7 @@ css
 		max-width: 100%;
 		height: auto;
 	}
-
+*/
 ##editor-style.css
 
     add_editor_style('editor-style.css');

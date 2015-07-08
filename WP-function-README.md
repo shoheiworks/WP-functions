@@ -1,9 +1,5 @@
 **Chack WordPress Version**
 
-<a style="float:right;margin: 0 6rem 0 0;" href="#functionsphp">
-	<p style="position:fixed;top:3.8rem;right:2rem;font-weight:bold;">↑Contnts</p>
-</a>
-
 #functions.php
 - [width of contents](#width-of-contents)
 - [editor-style.css](#editor-stylecss)
@@ -24,11 +20,11 @@
 ---
 
 ##width of contents
-functions.php
+// functions.php
 
     if ( ! isset( $content_width ) )
     $content_width = 640;
-    
+/*    
 css
 
     .size-auto, 
@@ -39,7 +35,7 @@ css
 		max-width: 100%;
 		height: auto;
 	}
-
+*/
 ##editor-style.css
 
     add_editor_style('editor-style.css');
